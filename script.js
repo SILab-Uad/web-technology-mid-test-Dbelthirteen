@@ -30,6 +30,7 @@ const generatePassword = (length, options) => {
 
 
 //  TODO: Add event listener to the button to call generatePassword and display the output
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { generatePassword }
 }

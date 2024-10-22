@@ -44,7 +44,7 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s ease;}
   button:hover {background-color: #0056b3; /* Darker blue on hover */}
-  
+
   generated-password 
   { margin-top: 20px;
     font-weight: bold;
