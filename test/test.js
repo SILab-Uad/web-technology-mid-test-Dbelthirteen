@@ -73,7 +73,7 @@ describe('Password Generator Tests', () => {
             includeLowercase: false,
             includeNumbers: false,
             includeSpecialChars: false
-        })).to.throw("At least one character type must be selected");        
+        })).to.throw('At least one character type must be selected');        
     });
 
     after(function() {
@@ -81,4 +81,5 @@ describe('Password Generator Tests', () => {
         console.log(`Passed: ${passedTests}`);
         console.log(`Failed: ${failedTests}`);
     });
+
 });
